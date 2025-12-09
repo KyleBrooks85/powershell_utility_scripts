@@ -9,6 +9,6 @@ foreach ($path in $path) {
 Add-AppxProvisionedPackage -Online -PackagePath "$path" -skiplicense
 }
 
-Start-Sleep -Seconds 10
+Start-Sleep -Seconds 15
 
 Remove-AppPackage -Package "Microsoft.DesktopAppInstaller_8wekyb3d8bbwe"
