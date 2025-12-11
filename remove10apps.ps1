@@ -20,3 +20,4 @@ ForEach ($App in $AppsList)
 }
 
 Get-AppxPackage *officehub* | Remove-AppxPackage
+#testing
